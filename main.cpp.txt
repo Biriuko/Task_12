@@ -7,14 +7,14 @@ void main()
 
 	double S, S1, Pr;
 
-	cout << "÷ена одной минуты с мтс на лайф = ";
+	cout << "Cost of one minute of conection between mts and life = ";
 	cin >> S1;
 
-	cout << "¬ведите врем€ (мин.сек) ";
+	cout << "Enter time (min, sec) ";
 	cin >> Pr;
 
 	S = Pr * S1;
-	cout << "Cтоимость этого звонка = " << S << "грн" << endl;
+	cout << "Cost of the call = " << S << "grn" << endl;
 	
 	system ("pause");
 
